@@ -1,0 +1,143 @@
+.topHeader {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    font-size: 1em;
+}
+
+#recommendationHeader{
+    margin: 2%;
+}
+
+#recommendationCardDeck {
+    margin: 2%;
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 5;
+    }
+}
+
+#cardLinks {
+    color: black;
+}
+
+#cardLinks:hover {
+    text-decoration: none;
+}
+
+.footerLink{
+    color:white;
+}
+
+.footerLink:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    background-color: grey;
+}
+
+#cartAdd {
+    display:none;
+}
+
+.card-footer:hover #cartAdd {
+    display: inline;
+}
+
+.card-footer:hover #cartNormal {
+    display: none;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerBottom{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    min-height: 100%;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+  }
+  
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+  }
+
+.search_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+#searchbar, #searchbutton {
+    margin:0;
+    background-color: aqua;
+}
